@@ -27,6 +27,7 @@
 
     header h1 {
       margin: 0 0 15px;
+      letter-spacing: 2px;
     }
 
     nav a {
@@ -49,14 +50,62 @@
     section {
       margin-bottom: 45px;
       background-color: white;
-      padding: 25px;
+      padding: 35px 30px;
       border-radius: 10px;
+    }
+
+    /* メインメッセージ */
+    .hero {
+      text-align: center;
+      padding: 60px 30px;
+      background-color: #fff0f3;
+    }
+
+    .hero h2 {
+      border-bottom: none;
+      padding-bottom: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .hero p:first-of-type {
+      font-size: 20px;
+      color: #8b4a5a;
+      margin-bottom: 20px;
+    }
+
+    .hero p:last-of-type {
+      line-height: 1.8;
     }
 
     h2 {
       color: #8b4a5a;
       border-bottom: 2px solid #e8b8c4;
       padding-bottom: 8px;
+    }
+
+    section p {
+      line-height: 1.8;
+    }
+
+    /* LUMÉAからのメッセージ */
+    .message {
+      text-align: center;
+      background-color: #f8e4e9;
+      padding: 45px 30px;
+    }
+
+    .message h2 {
+      border-bottom: none;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .message p {
+      max-width: 650px;
+      margin: 15px auto;
+      line-height: 2;
     }
 
     footer {
@@ -75,6 +124,10 @@
       margin: 0 10px;
       text-decoration: none;
     }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
@@ -92,29 +145,56 @@
   </header>
 
   <main>
-    <section>
-      <h2>Welcome</h2>
+
+    <!-- 1. メインメッセージ -->
+    <section class="hero">
+      <h2>BEAUTY, JUST FOR YOU.</h2>
+
+      <p>毎日のメイクに、小さなときめきを。</p>
+
       <p>
-        LUMÉA COSMETICSは、毎日の美しさに寄り添う
-        架空のコスメブランドです。
-      </p>
-      <p>
-        シンプルで使いやすいコスメを通して、
-        毎日のメイクをもっと楽しくすることを目指しています。
+        LUMÉA COSMETICSは、<br>
+        自分らしい美しさを楽しむためのコスメブランドです。
       </p>
     </section>
 
+
+    <!-- 2. ブランド紹介 -->
     <section>
-      <h2>おすすめ商品</h2>
+      <h2>About LUMÉA</h2>
+
       <p>
-        リップ、アイシャドウ、ハイライトなど、
-        毎日のメイクに使いやすい商品を展開しています。
+        LUMÉA COSMETICSは、シンプルで使いやすく、
+        毎日のメイクに自然になじむコスメを提案しています。
+      </p>
+
+      <p>
+        その日の気分やスタイルに合わせて、
+        自由にメイクを楽しんでください。
       </p>
     </section>
+
+
+    <!-- 4. LUMÉAからのメッセージ -->
+    <section class="message">
+      <h2>Find Your Beauty.</h2>
+
+      <p>
+        美しさに決まった形はありません。
+      </p>
+
+      <p>
+        LUMÉA COSMETICSと一緒に、<br>
+        あなたらしいメイクを見つけてください。
+      </p>
+    </section>
+
   </main>
+
 
   <footer>
     <div>© 2026 LUMÉA COSMETICS</div>
+
     <div>
       <a href="#">Instagram</a>
       <a href="#">X</a>
