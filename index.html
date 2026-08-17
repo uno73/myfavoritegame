@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>シンプルなWebサイト</title>
+  <title>LUMÉA COSMETICS</title>
+
   <style>
     * {
       box-sizing: border-box;
@@ -12,32 +13,50 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      color: #333;
+      color: #5a4a4a;
       padding-bottom: 100px;
+      background-color: #fff8f8;
     }
 
     header {
-      background-color: #440000;
+      background-color: #8b4a5a;
       color: white;
       padding: 25px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
     }
 
     main {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
-      color: #cc0000;
     }
 
     section {
-      margin-bottom: 40px;
+      margin-bottom: 45px;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
     }
 
     h2 {
-      color: #2c3e50;
-      border-bottom: 2px solid #3498db;
+      color: #8b4a5a;
+      border-bottom: 2px solid #e8b8c4;
       padding-bottom: 8px;
+    }
+
+    .product {
+      margin: 25px 0;
+      padding: 20px;
+      background-color: #fff0f3;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      color: #8b4a5a;
     }
 
     footer {
@@ -45,14 +64,14 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      background-color: #440000;
+      background-color: #8b4a5a;
       color: white;
       padding: 15px;
       text-align: center;
     }
 
     footer a {
-      color: #74b9ff;
+      color: #ffdce4;
       margin: 0 10px;
       text-decoration: none;
     }
@@ -66,32 +85,66 @@
 <body>
 
   <header>
-    <h1>私の好きなゲーム</h1>
+    <h1>LUMÉA COSMETICS</h1>
+    <p>毎日の美しさに、やさしい輝きを。</p>
   </header>
 
   <main>
+
     <section>
-      <h2>Slay the Spire 2</h2>
+      <h2>About Us</h2>
       <p>
-        Slay the Spire 2 は、デッキ構築型のローグライクカードゲームで、カードを集めてデッキを構築し、ダンジョンを攻略するゲームです。
+        LUMÉA COSMETICSは、毎日のメイクをもっと楽しくする
+        架空のコスメブランドです。
       </p>
-      <img src="https://github.com/uno73/myfavoritegame/blob/main/cupcake.jpg?raw=true" alt="カップケーキ">
+      <p>
+        シンプルで使いやすく、毎日の生活に寄り添うコスメを
+        提案しています。
+      </p>
     </section>
 
     <section>
-      <h2>マージマンション</h2>
-      <p>
-        マージマンションは、フィンランドのMetacore Gamesが開発したスマートフォン向けのパズルゲームです。
-      </p>
+      <h2>Products</h2>
+
+      <div class="product">
+        <h3>ルメア リップティント</h3>
+        <p>
+          自然な血色感を演出するリップティント。
+          軽やかなつけ心地で、毎日のメイクにおすすめです。
+        </p>
+      </div>
+
+      <div class="product">
+        <h3>ルメア フェイスパレット</h3>
+        <p>
+          アイシャドウとチークを組み合わせた
+          コンパクトなフェイスパレットです。
+        </p>
+      </div>
+
+      <div class="product">
+        <h3>ルメア ハイライト</h3>
+        <p>
+          上品なツヤ感を演出するパウダーハイライト。
+          顔を明るく見せたいときにおすすめです。
+        </p>
+      </div>
+
     </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>お問い合わせ：info@lumea-cosmetics.example</p>
+    </section>
+
   </main>
 
   <footer>
-    <div>お問い合わせ：info@example.com</div>
+    <div>© 2026 LUMÉA COSMETICS</div>
     <div>
-      <a href="https://twitter.com/" target="_blank">X</a>
-      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+      <a href="#">Facebook</a>
     </div>
   </footer>
 
